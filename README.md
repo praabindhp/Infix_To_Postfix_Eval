@@ -5,6 +5,8 @@ C is a general-purpose, procedural computer programming language supporting stru
 
 This Is A C-Program To Illustrate The Operations To Convert Infix To Postfix Evaluation
 
+Infix expression is an expression in which the operator is in the middle of operands, like operand operator operand. Postfix expression is an expression in which the operator is after operands, like operand operator. Postfix expressions are easily computed by the system but are not human readable.
+
 The Operations/Error Illustrated :
 
     1. Stack is full
