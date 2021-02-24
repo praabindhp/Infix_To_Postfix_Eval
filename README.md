@@ -5,13 +5,13 @@ C is a general-purpose, procedural computer programming language supporting stru
 
 This Is A C-Program To Illustrate The Operations To Convert Infix To Postfix Evaluation
 
-terate the given expression from left to right, one character at a time
+Iterate the given expression from left to right, one character at a time :
 
 1. If a character is operand, push it to stack.
 2. If a character is an operator, 
-    2.1. pop operand from the stack, say it’s s1.
-    2.2. pop operand from the stack, say it’s s2.
-    2.3. perform (s2 operator s1) and push it to stack.
+        2.1. pop operand from the stack, say it’s s1.
+        4.2. pop operand from the stack, say it’s s2.
+        5.3. perform (s2 operator s1) and push it to stack.
 3. Once the expression iteration is completed, initialize the result string and pop out from the stack and add it to the result.
 4. Return the result.
 
@@ -32,4 +32,3 @@ The User Will Be Prompted To :
     3. To Quit Enter Fullstop(.)
 
 The GCC File Also Have Been Pushed.
-
